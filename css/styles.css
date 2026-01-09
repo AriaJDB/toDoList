@@ -120,3 +120,36 @@ li p {
 .vacio, .vacioCom {
   color: darkslategrey;
 }
+
+@media (max-width: 768px) {
+
+  .principal,
+  .pendientes,
+  .completadas {
+    width: 90%;
+    padding: 20px;
+  }
+
+  form {
+    flex-direction: column;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .btn-nuevo {
+    width: 100%;
+    padding: 12px;
+  }
+
+  li {
+    flex-direction: row;
+  }
+
+  .btn-borrar,
+  .btn-completo {
+    width: 20%;
+  }
+}
